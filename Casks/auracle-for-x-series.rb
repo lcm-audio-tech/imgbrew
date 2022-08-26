@@ -4,8 +4,8 @@ cask "auracle-for-x-series" do
   
   url "http://10.0.39.53:8089/apps/iconnectivity/AuracleForX1.9.0.dmg"
   name "Auracle for X Series"
-  desc "Digital Audio Workstation"
-  homepage "https://avid.com"
+  desc "iConnectivity configuration application"
+  homepage "https://iconnectivity.com"
   
   app "Auracle for X-Series.app"
 end
