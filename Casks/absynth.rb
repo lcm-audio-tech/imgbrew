@@ -1,6 +1,6 @@
 cask "absynth" do
   version "5"
-  sha256 "eab6ce2ecd6efd4bf276de0b024b6f9cca1617d342085bec96233335f6eb60b4"
+  sha256 "134c87ac0eb6eaee7728196765a6c3f9d9b7ee52403811d1df8fe703502f5399"
   
   url "http://10.0.39.53:8089/apps/native-instruments/Absynth_5_Installer.dmg"
   name "Absynth"
