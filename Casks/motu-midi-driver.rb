@@ -7,5 +7,5 @@ cask "motu-midi-driver" do
   desc "Digital Audio Workstation"
   homepage "https://www.motu.com"
   
-  pkg "MOTU%20MIDI%20Installer%20(Dext%2091217).pkg"
+  pkg "MOTU MIDI Installer (Dext 91217).pkg"
 end
