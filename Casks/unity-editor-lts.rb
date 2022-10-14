@@ -1,13 +1,11 @@
 cask "unity-editor-lts" do
   version "2021-3-11f1-LTS"
-  sha256 "99313192f33805f9c8d8f9c004233aac62f1b884e3712e700e1e53a9e9e64b90"
+  sha256 "438ebcede9de020111252f80a32f08bac6424227d37112adc30373a2cd2ed472"
   
-  url "http://10.0.39.53:8089/apps/unity/2021-3-11f1-LTS/Unity-Editor-2021-3-11f1-LTS.dmg"
+  url "http://10.0.39.53:8089/apps/unity/2021-3-11f1-LTS/unity-editor.dmg"
   name "Unity editor — long term support version"
   desc "Editor for Unity"
   homepage "https://unity.com"
   
-  pkg "Unity.pkg"
-  pkg "1.pkg"
-  pkg "UnitySetup-Mac-IL2CPP-Support-for-Editor-2021.3.11f1.pkg"
+  artifact 'Hub', target: "/Applications/Unity/"
 end
