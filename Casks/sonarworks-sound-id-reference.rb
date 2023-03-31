@@ -2,11 +2,7 @@ cask "sonarworks-sound-id-reference" do
   version "5.7.2.7"
   sha256 :no_check
   
-  url "http://10.0.39.53:8089/apps/sonarworks/sw-sidr-5.7.2.7-system.pkg"
-  url "http://10.0.39.53:8089/apps/sonarworks/sw-sidr-5.7.2.7-aax.pkg"
-  url "http://10.0.39.53:8089/apps/sonarworks/sw-sidr-5.7.2.7-au.pkg"
-  url "http://10.0.39.53:8089/apps/sonarworks/sw-sidr-5.7.2.7-vst2.pkg"
-  url "http://10.0.39.53:8089/apps/sonarworks/sw-sidr-5.7.2.7-vst3.pkg"
+  url "sw-sid-5.7.2.7.zip"
   name "SoundID Reference"
   desc "Room acoustics correction suite"
   
